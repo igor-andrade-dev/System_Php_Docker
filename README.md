@@ -9,62 +9,65 @@
 
 ## 📌 Descrição Geral
 
-Este projeto é um **sistema de gerenciamento integrado com um site de e-commerce**, desenvolvido com foco em organização, clareza do código e execução em ambiente Docker. Foi construído com:
+This project is an integrated management system combined with an e-commerce website, developed with a strong focus on code organization, clarity, and execution in a Docker-based environment. It was built using:
 
-- PHP + Apache
-- MySQL
-- Docker + Docker Compose
-- phpMyAdmin
+PHP + Apache
 
-A aplicação é dividida em:
+MySQL
 
-- **Site público do e-commerce** – para exibição de produtos
-- **Sistema interno (/sistema)** – para gerenciamento dos dados (admin)
+Docker + Docker Compose
+
+phpMyAdmin
+
+The application is divided into:
+
+Public e-commerce website – for product display
+
+Internal system (/sistema) – for data management (admin panel)
+---
+
+## 🎯 Objetive
+
+To simulate an e-commerce environment with an administrative dashboard, applying good coding practices, a clear project structure, and integration with a relational database (MySQL).
 
 ---
 
-## 🎯 Objetivo
+## 🔧 Technologies Used:
 
-Simular um ambiente de e-commerce com painel administrativo, utilizando boas práticas de organização de código, estrutura clara e integração com banco de dados relacional (MySQL).
-
----
-
-## 🔧 Tecnologias Utilizadas
-
-| Tecnologia      | Função                              |
-|------------------|-------------------------------------|
-| PHP 8.1 + Apache | Backend da aplicação                |
-| MySQL 5.7        | Armazenamento de dados              |
-| Docker / Compose | Ambientes isolados e reprodutíveis  |
-| phpMyAdmin       | Interface de gerenciamento do banco |
-| PDO / mysqli     | Acesso seguro ao banco de dados     |
+| Technology       | Function                              |
+|------------------|---------------------------------------|
+| PHP 8.1 + Apache | Application backend                   |
+| MySQL 5.7        | Data storage                          |
+| Docker / Compose | Isolated and reproducible environments|
+| phpMyAdmin       | Bank management interface             |
+| PDO / mysqli     | Secure access to the database         |
 
 ---
 
-## 🚀 Como Executar o Projeto com Docker
+## 🚀 How to Run the Project with Docker
 
-### 1. Pré-requisitos
-- Docker instalado (Docker Desktop)
+### 1.Prerequisites
+- Docker installed (Docker Desktop)
 
-### 2. Clonar o repositório
+### 2. Clone the repository
 ```bash
 git clone https://github.com/IgorDevFullstack/Sistema_Php_Docker
 
-3. Executar o ambiente Docker
+3.Run the Docker environment
 
 docker-compose up --build
 
-4. Acessar no navegador
-Seção	URL
+4. Access in browser
+
 Site E-commerce	http://localhost:8080
 Sistema Interno	http://localhost:8080/sistema
 phpMyAdmin	http://localhost:8081
 
     phpMyAdmin Login
-    Usuário: root
-    Senha: root
+    User: root
+    password: root
 
-🧠 Estrutura de Pastas
+🧠 Folder Structure
 
 /Sistema_Php_Docker
 ├── index.php              # Página principal do e-commerce
@@ -76,6 +79,6 @@ phpMyAdmin	http://localhost:8081
 ├── README.md              # Este documento
 
 
-    Proibido o uso, cópia ou distribuição parcial ou total sem autorização expressa.
+Unauthorized use, copying, or distribution, in whole or in part, is prohibited.
 
-Todos os direitos reservados © Igor César de Andrade – 2025.
+All rights reserved © Igor César de Andrade – 2025.
