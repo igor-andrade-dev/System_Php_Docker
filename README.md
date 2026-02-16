@@ -4,7 +4,6 @@
 
 **Autor:** Igor César de Andrade  
 **Data:** Junho/2025  
-**Projeto desenvolvido exclusivamente para fins de avaliação técnica**
 
 ---
 
@@ -49,8 +48,7 @@ Simular um ambiente de e-commerce com painel administrativo, utilizando boas pr�
 
 ### 2. Clonar o repositório
 ```bash
-git clone https://github.com/igorprogrammer93/testePHP_Pleno.git
-cd testePHP_Pleno
+git clone https://github.com/IgorDevFullstack/Sistema_Php_Docker
 
 3. Executar o ambiente Docker
 
@@ -68,7 +66,7 @@ phpMyAdmin	http://localhost:8081
 
 🧠 Estrutura de Pastas
 
-/testePHP_Pleno
+/Sistema_Php_Docker
 ├── index.php              # Página principal do e-commerce
 ├── /sistema               # Painel administrativo do sistema
 │   ├── conexao.php        # Conexão com o banco
@@ -77,9 +75,6 @@ phpMyAdmin	http://localhost:8081
 ├── docker-compose.yml     # Orquestração dos serviços
 ├── README.md              # Este documento
 
-🛡️ Direitos Autorais e Uso
-
-Este projeto foi desenvolvido exclusivamente para o processo seletivo da empresa Alphacode.
 
     Proibido o uso, cópia ou distribuição parcial ou total sem autorização expressa.
 
