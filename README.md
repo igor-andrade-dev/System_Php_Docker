@@ -1,6 +1,6 @@
 
 
-# 🛍️ Sistema de Gerenciamento Integrado com Site de E-commerce
+# 🛍️ Integrated Management System with E-commerce Website
 
 **Autor:** Igor César de Andrade  
 **Data:** Junho/2025  
