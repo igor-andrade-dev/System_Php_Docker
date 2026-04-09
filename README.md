@@ -78,6 +78,14 @@ phpMyAdmin	http://localhost:8081
 ├── docker-compose.yml     # Orquestração dos serviços
 ├── README.md              # Este documento
 
+🔐 Demo credentials:
+
+    Email: igormtba@gmail.com
+    Password: demo123
+    Deploys: https://igorecommerce.alwaysdata.net/
+    system: https://igorecommerce.alwaysdata.net/sistema
+
+
 
 Unauthorized use, copying, or distribution, in whole or in part, is prohibited.
 
